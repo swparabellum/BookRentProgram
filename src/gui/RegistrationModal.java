@@ -101,7 +101,7 @@ public class RegistrationModal extends JDialog {
         setFont(new Font("고딕체", Font.BOLD, 15));
         setLayout(new FlowLayout(FlowLayout.LEFT));
         setBackground(Color.white);
-        setBounds(250, 230, 370, 440);
+        setBounds(250, 230, 370, 455);
 
         lid = new JLabel("*아 이 디   : "); lpass1 = new JLabel("*비밀번호 : "); lpass2 = new JLabel("*비번확인 : ");
         lname = new JLabel("*이    름     : "); ljunin = new JLabel("*주민번호 : "); ltel = new JLabel("*전화번호 : ");
@@ -113,7 +113,7 @@ public class RegistrationModal extends JDialog {
         telField1 = new JTextField(3); telField2 = new JTextField(4); telField3 = new JTextField(4); 
         addrField = new JTextField(20);
         emailField = new JTextField(20);
-
+        
         empty.setFont(new Font("고딕체", Font.BOLD, 12));
         JComponent dashLabel = new JLabel("-");
         dashLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -168,9 +168,16 @@ public class RegistrationModal extends JDialog {
         jobPanel.add(ljob); jobPanel.add(jobComboBox);
 
         Panel registerPanel = new Panel(new FlowLayout(FlowLayout.LEFT));
+        
+        JLabel requiredLabel = new JLabel("*는 필수입력란 입니다");
+        requiredLabel.setForeground(Color.RED); // 빨간색으로 설정
+        requiredLabel.setAlignmentX(Component.LEFT_ALIGNMENT); // 가운데 정렬
+		jobPanel.add(requiredLabel);
+		
         registerPanel.add(empty2); registerPanel.add(registerButton); registerPanel.add(empty3); registerPanel.add(cancelButton);
 
         add(idPanel); add(pass1Panel); add(pass2Panel); add(namePanel); add(juminPanel); add(telPanel); add(addrPanel); add(emailPanel); add(jobPanel);
+        add(requiredLabel);
         add(registerPanel);
 
         setLocationRelativeTo(null);

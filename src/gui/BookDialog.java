@@ -1,5 +1,6 @@
 package gui;
 
+import java.awt.Color;
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -19,8 +20,8 @@ import dto.BookDTO;
 
 public class BookDialog extends JDialog implements ActionListener {
     private String addedBookCode; // 추가된 도서 코드를 저장할 변수 추가
-    JPanel pl = new JPanel(new GridLayout(7, 1));
-    JPanel ptf = new JPanel(new GridLayout(7, 1));
+    JPanel pl = new JPanel(new GridLayout(8, 1));
+    JPanel ptf = new JPanel(new GridLayout(8, 1));
     JPanel ps = new JPanel();
 
     JLabel label_bcode = new JLabel("*도서코드");
@@ -30,6 +31,13 @@ public class BookDialog extends JDialog implements ActionListener {
     JLabel label_bpub = new JLabel("*출판사");
     JLabel label_byear = new JLabel("발행연도");
     JLabel label_bintro = new JLabel("한줄소개");
+    JLabel requiredLabel = new JLabel("*는 필수입력란 입니다") {
+        {
+            setForeground(Color.RED);
+        }
+    };
+    
+
 
     JTextField tf_bcode = new JTextField();
     JTextField tf_bcategory = new JTextField();
@@ -68,6 +76,7 @@ public class BookDialog extends JDialog implements ActionListener {
         ptf.add(tf_bpub);
         ptf.add(tf_byear);
         ptf.add(tf_bintro);
+        ptf.add(requiredLabel);
 
         ps.add(confirm);
         ps.add(reset);
