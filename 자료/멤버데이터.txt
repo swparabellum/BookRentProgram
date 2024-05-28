@@ -1,0 +1,99 @@
+--81행 9열
+
+INSERT INTO MEMBER VALUES ('garen',  '1234', '안상현', '910631-1', '010-2008-7245', '서울시 송파구', 'oriana@naver.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('gangplank',  '1234', '김예원', '950831-2', '010-7423-2571', '서울시 강남구', 'urgot@hanmail.net', '대학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('nami',  '1234', '이주현', '721211-2', '010-4687-1547', '인천광역시 연수구', 'evelynn@yahoo.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('darius',  '1234', '김인태', '600414-1', '010-4583-1344', '포항시 북구', 'zilean@outlook.com', '사업자', SYSDATE);
+INSERT INTO MEMBER VALUES ('ryze',  '1234', '고완기', '850414-1', '010-3461-8354', '대구광역시 수성구', 'camile@icloud.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('rammus',  '1234', '장지수', '730414-2', '010-3458-8765', '울산광역시 남구', 'fizz@naver.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('sam572',  '1234', '허진', '990414-1', '010-4684-3678', '전주시 완산구', 'hecarim@gmail.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('shaco',  '1234', '박새결', '630414-1', '010-3547-2473', '창원시 의창구', 'trundle@naver.com', '사업자', SYSDATE);
+INSERT INTO MEMBER VALUES ('poppy77',  '1234', '김환희', '920414-1', '010-9874-5324', '광주광역시 서구', 'nulvalue@gmail.com', '사업자', SYSDATE);
+INSERT INTO MEMBER VALUES ('BlueSky',  '1234', '유정호', '920414-1', '010-7861-2311', '서울시 광진구', 'Yo1234@naver.com', '학생', SYSDATE);
+
+INSERT INTO MEMBER VALUES ( 'SunnyDay', '1234', '정세연', '940515-2', '010-5315-1185', '서울시 서대문구', 'Joung1234@naver.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('CrystalClear', '1234', '윤형호', '960616-1', '010-4783-2541', '서울시 강남구', 'Ho1234@naver.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES('3sACCuhP', 'TZ2FSDL', '서태윤', '930711-1', '010-7365-4515', '경상남도 마산합포구', 'CLC1PqKbrY@naver.com', '대학생', SYSDATE);
+INSERT INTO MEMBER VALUES('po6cmlBk', 'V9JFMbt', '양은철', '820423-1', '010-7251-3686', '부산광역시 북구', 'rVPFAGDZcT@gmail.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES('I6jbhj3b', 'V9JFMbt', '제갈선옥', '961130-1', '010-1085-8462', '충청남도 금산군', 'wKXFu6thwx@naver.com', '실업자', SYSDATE);
+INSERT INTO MEMBER VALUES('QMCcCAPN', 'CRcmKjG', '풍준현', '640630-1', '010-3548-6872', '경기도 상록구', 'P5lrd0WCZ5@daum.com', '사업자', SYSDATE);
+INSERT INTO MEMBER VALUES('936D4GZi', 'Jt7EOAv', '이경석', '730925-1', '010-4685-5786', '경기도 양평군', 'aWQFV53YtA@naver.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES('KttpyXZQ', 'wFKmCSp', '복성수', '881110-1', '010-6485-1562', '광주광역시 서구', 'UpN1qfLc5Y@naver.com', '실업자', SYSDATE);
+INSERT INTO MEMBER VALUES('bjHCTeuE', 'GZqqlFB', '노보연', '980514-2', '010-8785-9485', '경기도 가평군', 'OxKXDiYBuD@naver.com', '대학생', SYSDATE);
+INSERT INTO MEMBER VALUES('jbOxUVx4', 'ryOA3V2', '제갈종일', '760815-1', '010-6452-1532', '서울특별시 송파구', 'l9UWtGeQQK@gmail.com', '직장인', SYSDATE);
+
+INSERT INTO MEMBER VALUES('m4Vp5TjI', 'iOo0IK2', '오은미', '600215-2', '010-5153-2514', '강원도 평창군', '1zTwvlrjcj@naver.com', '실업자', SYSDATE);
+INSERT INTO MEMBER VALUES('DbltZniU', 'uvFXio5', '고서은', '941005-2', '010-9798-5652', '경기도 양평군', 'rcAKNigd1O@gmail.com', '대학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('StarGazer99', 1234, '김민수', '980521-1', '010-1234-5678', '서울특별시 강남구', 'StarGazer99@naver.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('BlueSkyDreamer', 1234, '이서윤', '990812-2', '010-2345-6789', '부산광역시 해운대구', 'BlueSkyDreamer@example.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('MysticEcho23', 1234, '박준형', '000314-3', '010-3456-7890', '대구광역시 수성구', 'MysticEcho23@naver.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('ShadowHunterX', 1234, '최지은', '010927-4', '010-4567-8901', '인천광역시 연수구', 'ShadowHunterX@example.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('LunaLove88', 1234, '정민호', '020208-3', '010-5678-9012', '광주광역시 서구', 'LunaLove88@example.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('QuantumTraveler', 1234, '강유리', '031015-4', '010-6789-0123', '대전광역시 유성구', 'QuantumTraveler@example.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('PixelPioneer', 1234, '조현우', '040723-3', '010-7890-1234', '울산광역시 남구', 'PixelPioneer@icloud.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('CosmicVoyager', 1234, '윤다혜', '050316-4', '010-8901-2345', '경기도 성남시 분당구', 'CosmicVoyager@example.com', '학생', SYSDATE);
+
+INSERT INTO MEMBER VALUES ('NeonNinja12', 1234, '임동혁', '060408-3', '010-9012-3456', '충청북도 청주시', 'NeonNinja12@yahoo.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('FrostFirePhoenix', 1234, '배수진', '070519-4', '010-0123-4567', '제주특별자치도 제주시', 'FrostFirePhoenix@gmail.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('starbright90', '1234', '김소영', '850112-2', '010-8371-2562', '서울특별시 용산구', 'starbright90@gmail.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('moonlight23', '1234', '이재훈', '900313-1', '010-4625-1739', '부산광역시 남구', 'moonlight23@yahoo.com', '사업자', SYSDATE);
+INSERT INTO MEMBER VALUES ('sunshine88', '1234', '박민지', '950514-2', '010-5283-7492', '대구광역시 중구', 'sunshine88@naver.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('rainbow77', '1234', '최준혁', '920616-1', '010-3962-8471', '인천광역시 남동구', 'rainbow77@outlook.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('stormchaser', '1234', '정혜린', '870717-2', '010-5146-8723', '광주광역시 북구', 'stormchaser@icloud.com', '실업자', SYSDATE);
+INSERT INTO MEMBER VALUES ('oceanlover', '1234', '한지수', '830818-1', '010-6274-1893', '대전광역시 동구', 'oceanlover@gmail.com', '대학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('forestwalker', '1234', '윤성민', '900919-1', '010-4875-2398', '울산광역시 중구', 'forestwalker@yahoo.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('mountainclimber', '1234', '배정훈', '860101-1', '010-5176-2983', '경기도 고양시', 'mountainclimber@naver.com', '사업자', SYSDATE);
+
+INSERT INTO MEMBER VALUES ('desertwanderer', '1234', '이서연', '940202-2', '010-6745-9821', '충청북도 청주시', 'desertwanderer@outlook.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('skydreamer', '1234', '김민준', '870303-1', '010-7653-1842', '경상북도 포항시', 'skydreamer@icloud.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('riverfisher', '1234', '박수민', '910404-2', '010-3845-7129', '경상남도 창원시', 'riverfisher@gmail.com', '사업자', SYSDATE);
+INSERT INTO MEMBER VALUES ('wildflower', '1234', '최지현', '850505-1', '010-5921-8374', '전라북도 전주시', 'wildflower@yahoo.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('butterfly77', '1234', '정민호', '930606-1', '010-4382-1759', '전라남도 순천시', 'butterfly77@naver.com', '대학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('honeybee88', '1234', '한유진', '960707-2', '010-2847-5963', '제주특별자치도', 'honeybee88@outlook.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('treelover', '1234', '이정우', '920808-1', '010-6832-1745', '서울특별시 은평구', 'treelover@icloud.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('seabreeze', '1234', '박서영', '890909-2', '010-4716-2953', '부산광역시 해운대구', 'seabreeze@gmail.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('sunriseseeker', '1234', '최재현', '850101-1', '010-5923-7416', '대구광역시 달서구', 'sunriseseeker@yahoo.com', '사업자', SYSDATE);
+INSERT INTO MEMBER VALUES ('moondancer', '1234', '정하은', '880202-2', '010-1384-7596', '인천광역시 미추홀구', 'moondancer@naver.com', '대학생', SYSDATE);
+
+INSERT INTO MEMBER VALUES ('stargazer22', '1234', '김도현', '930303-1', '010-6781-3452', '광주광역시 광산구', 'stargazer22@outlook.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('nightwalker', '1234', '윤지수', '900404-2', '010-5938-1726', '대전광역시 서구', 'nightwalker@icloud.com', '실업자', SYSDATE);
+INSERT INTO MEMBER VALUES ('dawnbringer', '1234', '이준혁', '940505-1', '010-4729-5863', '울산광역시 동구', 'dawnbringer@gmail.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('duskwatcher', '1234', '박지후', '970606-2', '010-4812-7365', '경기도 성남시', 'duskwatcher@yahoo.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('twilightdreamer', '1234', '최민수', '910707-1', '010-6381-2957', '경기도 부천시', 'twilightdreamer@naver.com', '사업자', SYSDATE);
+INSERT INTO MEMBER VALUES ('sunsetlover', '1234', '정유진', '950808-2', '010-5728-4369', '충청남도 천안시', 'sunsetlover@outlook.com', '대학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('windrider', '1234', '김성현', '900909-1', '010-3918-5742', '전라북도 군산시', 'windrider@icloud.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('earthshaker', '1234', '한승연', '920101-2', '010-5871-2493', '전라남도 목포시', 'earthshaker@gmail.com', '사업자', SYSDATE);
+INSERT INTO MEMBER VALUES ('wavesurfer', '1234', '이민지', '870202-2', '010-3695-7184', '제주특별자치도 서귀포시', 'wavesurfer@yahoo.com', '대학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('flamekeeper', '1234', '박지훈', '940303-1', '010-4759-2813', '서울특별시 강동구', 'flamekeeper@naver.com', '직장인', SYSDATE);
+
+INSERT INTO MEMBER VALUES ('stormbringer', '1234', '최서연', '870404-2', '010-5816-3724', '부산광역시 금정구', 'stormbringer@outlook.com', '사업자', SYSDATE);
+INSERT INTO MEMBER VALUES ('thunderstriker', '1234', '정준영', '890505-1', '010-4675-3182', '대구광역시 북구', 'thunderstriker@icloud.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('mistymountain', '1234', '김지수', '910606-2', '010-5382-1746', '인천광역시 부평구', 'mistymountain@gmail.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('skyfall', '1234', '윤민준', '930707-1', '010-6194-5872', '광주광역시 남구', 'skyfall@yahoo.com', '대학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('oceanbreeze', '1234', '박현우', '960808-2', '010-5746-1983', '대전광역시 중구', 'oceanbreeze@naver.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('riverwalker', '1234', '최지훈', '920909-1', '010-4739-2816', '울산광역시 남구', 'riverwalker@outlook.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('starlight', '1234', '정지현', '880101-2', '010-5182-3746', '경기도 수원시', 'starlight@icloud.com', '사업자', SYSDATE);
+INSERT INTO MEMBER VALUES ('sunshine', '1234', '김현우', '950202-1', '010-3761-4928', '충청북도 충주시', 'sunshine@gmail.com', '대학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('moondreamer', '1234', '박하은', '890303-2', '010-5829-3147', '경상북도 구미시', 'moondreamer@yahoo.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('rainbow', '1234', '최재훈', '920404-1', '010-6185-2947', '경상남도 진주시', 'rainbow@naver.com', '사업자', SYSDATE);
+
+INSERT INTO MEMBER VALUES ('storm', '1234', '정혜진', '950505-2', '010-3874-2516', '전라북도 익산시', 'storm@outlook.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('forest', '1234', '김민정', '870606-1', '010-5782-3195', '전라남도 여수시', 'forest@icloud.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('mountain', '1234', '이현준', '930707-2', '010-4298-5713', '제주특별자치도 제주시', 'mountain@gmail.com', '대학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('desert', '1234', '박지민', '860808-1', '010-5981-2437', '서울특별시 성동구', 'desert@yahoo.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('sky', '1234', '최지우', '920909-2', '010-4318-2571', '부산광역시 사상구', 'sky@naver.com', '사업자', SYSDATE);
+INSERT INTO MEMBER VALUES ('river', '1234', '정준희', '900101-1', '010-5832-1748', '대구광역시 서구', 'river@outlook.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('wildflower22', '1234', '윤지훈', '880202-2', '010-3185-2746', '인천광역시 계양구', 'wildflower22@icloud.com', '직장인', SYSDATE);
+INSERT INTO MEMBER VALUES ('butterfly88', '1234', '김도윤', '910303-1', '010-4893-5271', '광주광역시 동구', 'butterfly88@gmail.com', '사업자', SYSDATE);
+INSERT INTO MEMBER VALUES ('honeybee77', '1234', '박지후', '940404-2', '010-5742-3918', '대전광역시 대덕구', 'honeybee77@yahoo.com', '학생', SYSDATE);
+INSERT INTO MEMBER VALUES ('treelover22', '1234', '최민호', '970505-1', '010-6739-2514', '울산광역시 울주군', 'treelover22@naver.com', '직장인', SYSDATE);
+
+INSERT INTO MEMBER VALUES ('seabreeze88', '1234', '정유진', '910606-2', '010-4182-3759', '경기도 화성시', 'seabreeze88@outlook.com', '사업자', SYSDATE);
+
+commit;
+
+--81개
+select count(*) from member;
+
+
+
